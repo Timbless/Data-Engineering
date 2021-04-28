@@ -1,60 +1,26 @@
-     Year  Reporter Code  ...  Trade Value (US$)  Estimation Code
-0    2018              8  ...             123703                4
-1    2018             20  ...            1658514                4
-2    2018             24  ...          107751000                4
-3    2018             24  ...                 34                4
-4    2018             31  ...           12607884                4
-..    ...            ...  ...                ...              ...
-288  2018            740  ...            7204414                4
-289  2018             52  ...            9558117                4
-290  2018             52  ...               5271                4
-291  2018            434  ...           11244413                4
-292  2018            434  ...            1992087                4
+['1', '2', '3', '4', '5', '6']
+6
+11
+Total degree centrality is [('1', 5), ('2', 3), ('3', 5), ('4', 2), ('5', 4), ('6', 3)]
+5
+1's degree centrality is 5
+2's degree centrality is 3
+3's degree centrality is 5
+4's degree centrality is 2
+5's degree centrality is 4
+6's degree centrality is 3
 
-[293 rows x 11 columns]
-Index(['Year', 'Reporter Code', 'Trade Flow Code', 'Partner Code',
-       'Classification', 'Commodity Code', 'Qty Unit Code',
-       'Supplementary Quantity', 'Netweight (kg)', 'Trade Value (US$)',
-       'Estimation Code'],
-      dtype='object')
-column: Supplementary Quantity has missing values
-column: Netweight (kg) has missing values
-293
-9
-         Year  Reporter Code  ...  Trade Value (US$)  Estimation Code
-count   293.0     293.000000  ...       2.930000e+02            293.0
-mean   2018.0     427.996587  ...       1.670337e+08              4.0
-std       0.0     254.356299  ...       4.787397e+08              0.0
-min    2018.0       4.000000  ...       3.400000e+01              4.0
-25%    2018.0     204.000000  ...       1.256653e+06              4.0
-50%    2018.0     422.000000  ...       1.298722e+07              4.0
-75%    2018.0     662.000000  ...       1.077702e+08              4.0
-max    2018.0     894.000000  ...       4.554887e+09              4.0
+{'1': 5, '2': 3, '3': 5, '4': 2, '5': 4, '6': 3}
+True
+[(('1', '1'), 0), (('1', '2'), 1), (('1', '3'), 1), (('1', '4'), 1), (('1', '5'), 1), (('1', '6'), 1)]
+the distance between 1 and 1 is 0
+the distance between 1 and 2 is 1
+the distance between 1 and 3 is 1
+the distance between 1 and 4 is 1
+the distance between 1 and 5 is 1
+the distance between 1 and 6 is 1
 
-[8 rows x 10 columns]
-number of nodes:  158
-number of edges:  293
-48940866240.0 22925682368.0 0.4684363831153962
-48940866240.0 22925682368.0 0.4684363831153962
--0.9999999999999998
-    Classification  Year  ...  FOB Trade Value (US$)  Flag
-22              H5  2018  ...                    NaN     0
-251             H4  2018  ...                    NaN     0
-164             H5  2018  ...                    NaN     0
-94              H5  2018  ...                    NaN     0
-149             H5  2018  ...                    NaN     0
-159             H5  2018  ...                    NaN     0
-208             H5  2018  ...                    NaN     0
-189             H5  2018  ...                    NaN     6
-147             H5  2018  ...                    NaN     0
-194             H5  2018  ...                    NaN     0
-
-[10 rows x 35 columns]
-trade flow not present
-
-158
-030311 1.2274 & 2.2538 & 1.7396 & 3.4134
-030312 1.1887 & 1.9797 & 1.5692 & 2.7835
-030313 1.0236 & 1.6936 & 1.3824 & 2.3318
-030319 0.9974 & 1.6278 & 0.4924 & 3.3416
-030322 14.6054 & 48.8333 & 50.0186 & 28.5781
+Giant Connected Component: ['6']
+Number of components: 6
+['1', '2', '3', '4', '5', '6']
+the copy nodes count is 6
